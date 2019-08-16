@@ -1,5 +1,9 @@
 {
     "name": "flyrolling_comision_8",
     "description": "",
-    "version": "1.0.0"
+    "version": "1.0.0",
+    "dependencies": {
+        "boostrap": "^2.0.0",
+        "jquery": "^3.4.1"
+    }
 }
