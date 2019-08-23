@@ -1,0 +1,21 @@
+Links de boostrap
+
+Header
+
+https://getbootstrap.com/docs/4.3/examples/blog/
+
+Tarjetas
+
+https://getbootstrap.com/docs/4.3/examples/album/
+
+Carousel
+
+https://getbootstrap.com/docs/4.3/examples/carousel/
+
+Footer
+
+https://getbootstrap.com/docs/4.3/examples/product/
+
+Pago y formulario
+
+https://getbootstrap.com/docs/4.3/examples/checkout/
