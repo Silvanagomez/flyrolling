@@ -1,0 +1,8 @@
+#destinos-personalizados .carousel-control-next, #destinos-personalizados .carousel-control-prev {
+ bottom: auto;
+ top: 50%;
+ background: red;
+ width: 30px;
+ height: 30px;
+ border-radius: 100%;
+}
