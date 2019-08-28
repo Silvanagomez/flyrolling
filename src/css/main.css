@@ -1,8 +1,14 @@
 #destinos-personalizados .carousel-control-next, #destinos-personalizados .carousel-control-prev {
  bottom: auto;
  top: 50%;
- background: red;
+ background: #9e9e9e;
  width: 30px;
  height: 30px;
  border-radius: 100%;
+}
+.card h3 {
+    margin-bottom: -8px;
+}
+.card p {
+    margin-bottom: 0px;
 }
