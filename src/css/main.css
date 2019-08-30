@@ -13,10 +13,16 @@
     margin-bottom: 0px;
 }
 #carouselExampleControls .carousel-control-next, #carouselExampleControls .carousel-control-prev{
-    bottom: auto;
+ bottom: auto;
  top: 50%;
  background: #9e9e9e;
  width: 30px;
  height: 30px;
  border-radius: 100%;
 }
+<<<<<<< HEAD
+=======
+.font-weight-bold, .font-weight-normal {
+    font-size: 32px;
+}
+>>>>>>> 140f092fbac8e414353503fcdd76f065337512a4
