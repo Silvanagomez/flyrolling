@@ -20,3 +20,7 @@
  height: 30px;
  border-radius: 100%;
 }
+
+.toast {
+    max-width: 690px;
+}
