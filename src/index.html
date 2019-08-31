@@ -6,18 +6,61 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>FlyRolling</title>
     <link rel="stylesheet" href="./css/main.css">
-
+    <script src="https://kit.fontawesome.com/4df2f2241d.js"></script>
 </head>
 <body>
     <main>
         <div class="container">
             <section>
-                <h1>notificacion</h1>
+                    <div class="toast" role="alert" aria-live="assertive" aria-atomic="true" data-autohide="false">
+                            <div class="toast-header">
+                                <i class="fas fa-bell"></i>
+                              <strong class="mr-auto">Bootstrap</strong>
+                              <small>11 mins ago</small>
+                              <button type="button" class="ml-2 mb-1 close" data-dismiss="toast" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                              </button>
+                            </div>
+                            <div class="toast-body">
+                              Hello, world! This is a toast message.
+                            </div>
+                    </div>                 
             </section>
             <section>
-                <header class="container">
-                    <h1>header</h1>
-                </header>
+                <div class="container">
+                        <header class="blog-header py-3">
+                                <div class="row flex-nowrap justify-content-between align-items-center">
+                                  <div class="col-4 pt-1">
+                                    <a class="text-muted" href="#">Subscribe</a>
+                                  </div>
+                                  <div class="col-4 text-center">
+                                    <a class="blog-header-logo text-dark" href="#">Large</a>
+                                  </div>
+                                  <div class="col-4 d-flex justify-content-end align-items-center">
+                                    <a class="text-muted" href="#">
+                                      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="mx-3" role="img" viewBox="0 0 24 24" focusable="false"><title>Search</title><circle cx="10.5" cy="10.5" r="7.5"/><path d="M21 21l-5.2-5.2"/></svg>
+                                    </a>
+                                    <a class="btn btn-sm btn-outline-secondary" href="#">Sign up</a>
+                                  </div>
+                                </div>
+                              </header>
+                              <div class="nav-scroller py-1 mb-2">
+                                    <nav class="nav d-flex justify-content-between">
+                                      <a class="p-2 text-muted" href="#">World</a>
+                                      <a class="p-2 text-muted" href="#">U.S.</a>
+                                      <a class="p-2 text-muted" href="#">Technology</a>
+                                      <a class="p-2 text-muted" href="#">Design</a>
+                                      <a class="p-2 text-muted" href="#">Culture</a>
+                                      <a class="p-2 text-muted" href="#">Business</a>
+                                      <a class="p-2 text-muted" href="#">Politics</a>
+                                      <a class="p-2 text-muted" href="#">Opinion</a>
+                                      <a class="p-2 text-muted" href="#">Science</a>
+                                      <a class="p-2 text-muted" href="#">Health</a>
+                                      <a class="p-2 text-muted" href="#">Style</a>
+                                      <a class="p-2 text-muted" href="#">Travel</a>
+                                    </nav>
+                              </div>
+                </div>
             <nav>
                 <h1>links</h1>
             </nav>
@@ -25,6 +68,32 @@
             <section>
             <div>
                 <h1>buscador</h1>
+                <form class="form-inline">
+                    <div class="form-group mx-sm-3 mb-2">
+                        <label for="inputPassword2" class="sr-only">Password</label>
+                        <input type="password" class="form-control" id="inputPassword2" placeholder="Ingreso una Ciudad">
+                      </div>
+                    <div class="form-group mx-sm-3 mb-2">
+                        <label for="inputPassword2" class="sr-only">Password</label>
+                        <input type="password" class="form-control" id="inputPassword2" placeholder="Ingreso una Ciudad">
+                      </div>
+                    <div class="form-group mx-sm-3 mb-2">
+                        <label for="inputPassword2" class="sr-only">Password</label>
+                        <input type="password" class="form-control" id="inputPassword2" placeholder="Ida">
+                      </div>
+                    <div class="form-group mx-sm-3 mb-2">
+                        <label for="inputPassword2" class="sr-only">Password</label>
+                        <input type="password" class="form-control" id="inputPassword2" placeholder="Vuelta">
+                      </div>
+                    
+                  <!--
+                        <div class="form-group mx-sm-3 mb-2">
+                        <label for="inputPassword2" class="sr-only">Password</label>
+                        <input type="password" class="form-control" id="inputPassword2" placeholder="Password">
+                      </div>
+                  --> 
+                    <button type="submit" class="btn btn-primary mb-2">Buscar</button>
+                  </form>
             </div>
             </section>
             <hr></hr>
@@ -338,6 +407,6 @@
                 </section>
           </div>
       </main>
-    <script type="text/javascript" src="./js/main.js"></script>
+    <script type="text/javascript" src="./js/home.js"></script>
 </body>
 </html>
