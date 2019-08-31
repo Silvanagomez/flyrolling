@@ -24,3 +24,10 @@
 .font-weight-bold, .font-weight-normal {
     font-size: 32px;
 }
+.turismo-nacional h1, h3, h6 {
+    text-align: center;
+}
+.turismo-nacional h1 {
+    background: #cccccc;
+}
+
