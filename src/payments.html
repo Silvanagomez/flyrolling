@@ -38,21 +38,72 @@
                 </nav>
             </header>
           <!-- Fin Cabecera - RNG -->
-
           <!-- Inicio Alert - RNG -->
             <div class="alert alert-success" role="alert">
               <h4 class="alert-heading">¡Apurate!</h4>
               <p>Últimos lugares disponibles para este Vuelo. ¡No te lo pierdas! Confirma ahora tu reserva.</p>
             </div>
           <!-- Fin Alert - RNG -->
-
-          <!-- Inicio Form - RNG -->
-<!--             <div class="py-5 text-center">
-              <img class="d-block mx-auto mb-4" src="/docs/4.3/assets/brand/bootstrap-solid.svg" alt="" width="72" height="72">
-              <h2>Checkout form</h2>
-              <p class="lead">Below is an example form built entirely with Bootstrap’s form controls. Each required form group has a validation state that can be triggered by attempting to submit the form without completing it.</p>
-            </div>
- -->          
+          <!-- Inicio Form - RNG -->      
+ 		  <!-- Seleccion de tipo de pago -->
+			<h4 class="mb-3">Seleccione la forma de pago</h4>
+	
+			<div class="d-block my-3">
+			<div class="custom-control custom-radio">
+				<input id="credit" name="paymentMethod" type="radio" class="custom-control-input" checked required>
+				<label class="custom-control-label" for="credit">Tarjeta de crédito</label>
+			</div>
+			<div class="custom-control custom-radio">
+				<input id="debit" name="paymentMethod" type="radio" class="custom-control-input" required>
+				<label class="custom-control-label" for="debit">Tarjeta de débito</label>
+			</div>
+			<div class="custom-control custom-radio">
+				<input id="paypal" name="paymentMethod" type="radio" class="custom-control-input" required>
+				<label class="custom-control-label" for="paypal">PayPal</label>
+			</div>
+			<hr class="mb-4">
+			<!-- Boton Modal -->
+			<h4 class="mb-3">Seleccioná la tarjeta de crédito</h4>
+			<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#creditcardModal">
+				Seleccioná tu tarjeta.
+			</button>			
+			<hr class="mb-4">
+			</div>
+			<div class="row">
+			<div class="col-md-6 mb-3">
+				<!-- Datos de tarjeta -->
+				<label for="cc-name">Titular de la tarjeta</label>
+				<input type="text" class="form-control" id="cc-name" placeholder="" required>
+				<small class="text-muted">Nombre como se muestra en la tarjeta</small>
+				<div class="invalid-feedback">
+				Name on card is required
+				</div>
+			</div>
+			<div class="col-md-6 mb-3">
+				<label for="cc-number">Número de tarjeta</label>
+				<input type="text" class="form-control" id="cc-number" placeholder="" required>
+				<div class="invalid-feedback">
+				Credit card number is required
+				</div>
+			</div>
+			</div>
+			<div class="row">
+			<div class="col-md-3 mb-3">
+				<label for="cc-expiration">Vencimiento</label>
+				<input type="text" class="form-control" id="cc-expiration" placeholder="" required>
+				<div class="invalid-feedback">
+				Expiration date required
+				</div>
+			</div>
+			<div class="col-md-3 mb-3">
+				<label for="cc-cvv">Código de seguridad</label>
+				<input type="text" class="form-control" id="cc-cvv" placeholder="" required>
+				<div class="invalid-feedback">
+				Security code required
+				</div>
+			</div>
+			</div>
+<!-- Fin Seleccion de tipo de pago -->
             <div class="row">
               <div class="col-md-4 order-md-2 mb-4">
                 <h4 class="d-flex justify-content-between align-items-center mb-3">
@@ -197,55 +248,6 @@
                   </div>
                   <hr class="mb-4">
           
-                  <h4 class="mb-3">Payment</h4>
-          
-                  <div class="d-block my-3">
-                    <div class="custom-control custom-radio">
-                      <input id="credit" name="paymentMethod" type="radio" class="custom-control-input" checked required>
-                      <label class="custom-control-label" for="credit">Credit card</label>
-                    </div>
-                    <div class="custom-control custom-radio">
-                      <input id="debit" name="paymentMethod" type="radio" class="custom-control-input" required>
-                      <label class="custom-control-label" for="debit">Debit card</label>
-                    </div>
-                    <div class="custom-control custom-radio">
-                      <input id="paypal" name="paymentMethod" type="radio" class="custom-control-input" required>
-                      <label class="custom-control-label" for="paypal">PayPal</label>
-                    </div>
-                  </div>
-                  <div class="row">
-                    <div class="col-md-6 mb-3">
-                      <label for="cc-name">Name on card</label>
-                      <input type="text" class="form-control" id="cc-name" placeholder="" required>
-                      <small class="text-muted">Full name as displayed on card</small>
-                      <div class="invalid-feedback">
-                        Name on card is required
-                      </div>
-                    </div>
-                    <div class="col-md-6 mb-3">
-                      <label for="cc-number">Credit card number</label>
-                      <input type="text" class="form-control" id="cc-number" placeholder="" required>
-                      <div class="invalid-feedback">
-                        Credit card number is required
-                      </div>
-                    </div>
-                  </div>
-                  <div class="row">
-                    <div class="col-md-3 mb-3">
-                      <label for="cc-expiration">Expiration</label>
-                      <input type="text" class="form-control" id="cc-expiration" placeholder="" required>
-                      <div class="invalid-feedback">
-                        Expiration date required
-                      </div>
-                    </div>
-                    <div class="col-md-3 mb-3">
-                      <label for="cc-cvv">CVV</label>
-                      <input type="text" class="form-control" id="cc-cvv" placeholder="" required>
-                      <div class="invalid-feedback">
-                        Security code required
-                      </div>
-                    </div>
-                  </div>
                   <hr class="mb-4">
                   <button class="btn btn-primary btn-lg btn-block" type="submit">Continue to checkout</button>
                 </form>
@@ -253,7 +255,27 @@
             </div>
           <!-- Fin Form - RNG -->            
         </section>
-    </div>
+	</div>
+	<!-- Modal -->
+	<div class="modal fade" id="creditcardModal" tabindex="-1" role="dialog" aria-labelledby="creditcardModalLabel" aria-hidden="true">
+		<div class="modal-dialog" role="document">
+		  <div class="modal-content">
+			<div class="modal-header">
+			  <h5 class="modal-title" id="creditcardModalLabel">Seleccioná tu banco</h5>
+			  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+				<span aria-hidden="true">&times;</span>
+			  </button>
+			</div>
+			<div class="modal-body">
+			  ...
+			</div>
+			<div class="modal-footer">
+			  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+			  <button type="button" class="btn btn-primary">Save changes</button>
+			</div>
+		  </div>
+		</div>
+	  </div>
     <script type="text/javascript" src="./js/payments.js"></script>
 </body>
 </html>
