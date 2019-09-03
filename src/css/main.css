@@ -40,4 +40,19 @@
 .task_06 .card {
     min-height: 500px;
 }
+.task_12 {
+    background: #44444444
+}
+
+.head {
+    text-align: center;
+    background: red;
+    width: 80%;
+    margin: auto;
+    border: black solid 1px;
+}
+.head img {
+    width: 60px;
+    height: auto;
+}
 
