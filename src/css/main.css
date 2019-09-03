@@ -68,6 +68,7 @@
 .banks-container {
     margin-right: 30px;
     display: flex;
+  
 }
 .bank-logo {
     
@@ -77,8 +78,9 @@
     background-position: center;
     background-color: #fff;
     border-radius: 4px;
-    margin: auto;
+    margin: 10px;
     flex: 1 1 auto;
+    cursor: pointer;
 }
 .banks-facilities {
 font-size: 12px;
