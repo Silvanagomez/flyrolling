@@ -49,6 +49,49 @@
     position: absolute;
     width: 95%;
 }
+<<<<<<< HEAD
+.cards {
+    background: rgb(176, 224, 236);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cards-a {
+   padding: 20px 30px 25px;
+}
+.promo {
+    color: #4300D2;
+    font-weight: 500;
+    text-decoration: none;
+    cursor: pointer;
+}
+.banks-container {
+    margin-right: 30px;
+    display: flex;
+  
+}
+.bank-logo {
+    
+    width: 60px;
+    height: 35px;
+    background-size: contain;
+    background-position: center;
+    background-color: #fff;
+    border-radius: 4px;
+    margin: 10px;
+    flex: 1 1 auto;
+    cursor: pointer;
+}
+.banks-facilities {
+font-size: 12px;
+color: #666;
+padding: 4px 0 2px;
+display: block;
+max-width: 60px;
+margin: 0 auto 20px;
+}
+=======
 .task_06 .banderas {
     padding: 0px 0px 7px 10px;
     
@@ -57,3 +100,4 @@
     min-height: 500px;
 }
 
+>>>>>>> 72474da6eef5f08c2b65f13106ea8db61028c454
