@@ -46,50 +46,47 @@
     margin: auto;
 }
 
-.head {
+.head-footer {
     text-align: center;
     background: white;
 }
-.head .icon-email {
-    font-size: 53px;
-    color: #3cb7ee;
-}
-.head p a {
+.head-footer .parrafo a {
     text-decoration: none;
-    color: black;
+    color: #888888;
 }
-.head button {
+.head-footer button {
     border-radius: 21px;
+    margin-top: 24px;
 }
-.head input {
-    border-radius: 8px;
-    margin: 0px 10px 0px 10px;
+.head-footer input {
+    margin-top: 24px;
 }
-.head .small {
-    color: #888888
+.head-footer .row .icon-email {
+    font-size: 67px;
+    color: red;
 }
-.row .col-6 .fab {
+.main-footer .row .col-6 .fab {
     padding: 0 15px;
 }
-.row .col-3 a {
+.main-footer .row .col-3 a {
     color: #888888;
     text-decoration: none;
 }
-.task_12 .informacion-extra .row .col-3 ul .small a {
+.informacion-extra .row .col-3 ul .small a {
     color: #888888;
     text-decoration: none;
 }
-.task_12 .informacion-extra .row .col-2 ul .small a {
+.informacion-extra .row .col-2 ul .small a {
     color: #888888;
     text-decoration: none;
 }
 .task_12 ul li {
     list-style: none;
 }
-.task_12 .informacion-extra .row .col-2 a, b, .task_12 .informacion-extra .row .col-3 a, b  {
+.informacion-extra .row .col-2 a, b, .task_12 .informacion-extra .row .col-3 a, b  {
     margin-left: -40px;
 }
-.task_12 .informacion-extra .row .col-4 .small b {
+.informacion-extra .row .col-4 .small b {
     margin-left: 1px;
 }
 
