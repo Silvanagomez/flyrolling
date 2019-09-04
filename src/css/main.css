@@ -49,6 +49,7 @@
     position: absolute;
     width: 95%;
 }
+<<<<<<< HEAD
 .cards {
     background: rgb(176, 224, 236);
     border-radius: 10px;
@@ -90,3 +91,13 @@ display: block;
 max-width: 60px;
 margin: 0 auto 20px;
 }
+=======
+.task_06 .banderas {
+    padding: 0px 0px 7px 10px;
+    
+}
+.task_06 .card {
+    min-height: 500px;
+}
+
+>>>>>>> 72474da6eef5f08c2b65f13106ea8db61028c454
