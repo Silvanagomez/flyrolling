@@ -49,3 +49,11 @@
     position: absolute;
     width: 95%;
 }
+.task_06 .banderas {
+    padding: 0px 0px 7px 10px;
+    
+}
+.task_06 .card {
+    min-height: 500px;
+}
+
