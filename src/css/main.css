@@ -41,18 +41,55 @@
     min-height: 500px;
 }
 .task_12 {
-    background: #44444444
+    background: white;
+    width: 80%;
+    margin: auto;
 }
 
 .head {
     text-align: center;
-    background: red;
-    width: 80%;
-    margin: auto;
-    border: black solid 1px;
+    background: white;
 }
-.head img {
-    width: 60px;
-    height: auto;
+.head .icon-email {
+    font-size: 53px;
+    color: #3cb7ee;
+}
+.head p a {
+    text-decoration: none;
+    color: black;
+}
+.head button {
+    border-radius: 21px;
+}
+.head input {
+    border-radius: 8px;
+    margin: 0px 10px 0px 10px;
+}
+.head .small {
+    color: #888888
+}
+.row .col-6 .fab {
+    padding: 0 15px;
+}
+.row .col-3 a {
+    color: #888888;
+    text-decoration: none;
+}
+.task_12 .informacion-extra .row .col-3 ul .small a {
+    color: #888888;
+    text-decoration: none;
+}
+.task_12 .informacion-extra .row .col-2 ul .small a {
+    color: #888888;
+    text-decoration: none;
+}
+.task_12 ul li {
+    list-style: none;
+}
+.task_12 .informacion-extra .row .col-2 a, b, .task_12 .informacion-extra .row .col-3 a, b  {
+    margin-left: -40px;
+}
+.task_12 .informacion-extra .row .col-4 .small b {
+    margin-left: 1px;
 }
 
