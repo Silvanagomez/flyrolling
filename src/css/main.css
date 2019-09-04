@@ -33,6 +33,63 @@
 .turismo-nacional .card-body {
     min-height: 331px;
 }
+.search {
+    background: #A780FF;
+    margin:0px;
+    padding: 0px;
+    width: 100%;
+    height: 200px;
+    position: relative;
+}
+.filters {
+    background: #FFF;
+    border-radius: 10px;
+    margin:15px;
+    height: 150px;
+    position: absolute;
+    width: 95%;
+}
+.cards {
+    background: rgb(176, 224, 236);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cards-a {
+   padding: 20px 30px 25px;
+}
+.promo {
+    color: #4300D2;
+    font-weight: 500;
+    text-decoration: none;
+    cursor: pointer;
+}
+.banks-container {
+    margin-right: 30px;
+    display: flex;
+  
+}
+.bank-logo {
+    
+    width: 60px;
+    height: 35px;
+    background-size: contain;
+    background-position: center;
+    background-color: #fff;
+    border-radius: 4px;
+    margin: 10px;
+    flex: 1 1 auto;
+    cursor: pointer;
+}
+.banks-facilities {
+font-size: 12px;
+color: #666;
+padding: 4px 0 2px;
+display: block;
+max-width: 60px;
+margin: 0 auto 20px;
+}
 .task_06 .banderas {
     padding: 0px 0px 7px 10px;
     
