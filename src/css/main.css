@@ -146,4 +146,28 @@ margin: 0 auto 20px;
 .informacion-extra .row .col-4 .small b {
     margin-left: 1px;
 }
-
+.footer-permisos-obligatorios {
+    text-align: center;
+}
+.footer-footer {
+    width: 100%;
+    background:#101010;
+    color: #c7c7c7;
+    padding: 0px 10px 0px 10px;
+    font-size: 12px;
+    margin-top: 10px;
+    max-height: 20px;
+}
+.footer-footer i, .magnitus, .footer-a {
+    text-decoration: none;
+    color: #c7c7c7;
+}
+.footer-footer .magnitus {
+    color: white;
+}
+.footer-parrafo {
+     width: 90%;
+     text-align: center;
+     color: #c7c7c7;
+     margin-top: 10px;
+}
