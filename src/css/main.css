@@ -135,6 +135,11 @@ margin: 0 auto 20px;
     margin: auto;
 }
 
+
+.coments {
+    text-align: center;
+}
+
 .head-footer {
     text-align: center;
     background: white;
@@ -203,3 +208,4 @@ margin: 0 auto 20px;
      color: #c7c7c7;
      margin-top: 10px;
 }
+
