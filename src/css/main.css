@@ -1,3 +1,35 @@
+main {
+    background: #E8E8E8;
+}
+
+/* Inicio CSS RNG */
+
+.header {
+    align-items: center;
+    background: #fff;
+    display: flex;
+    font-size: 1.125em;
+    height: 40px;
+    justify-content: space-between;
+    /* position: sticky; */
+    top: 0;
+    margin: 15px -120px;
+    padding: 5px;
+}
+
+.logo-container {
+    width: 4.625em;
+}
+
+.logo-container img {
+    margin: 20px;
+    width: 100%;
+}
+
+.help-text {
+    margin: 20px;
+}
+
 #destinos-personalizados .carousel-control-next, #destinos-personalizados .carousel-control-prev,  {
  bottom: auto;
  top: 50%;
