@@ -1,3 +1,35 @@
+main {
+    background: #E8E8E8;
+}
+
+/* Inicio CSS RNG */
+
+.header {
+    align-items: center;
+    background: #fff;
+    display: flex;
+    font-size: 1.125em;
+    height: 40px;
+    justify-content: space-between;
+    /* position: sticky; */
+    top: 0;
+    margin: 15px -120px;
+    padding: 5px;
+}
+
+.logo-container {
+    width: 4.625em;
+}
+
+.logo-container img {
+    margin: 20px;
+    width: 100%;
+}
+
+.help-text {
+    margin: 20px;
+}
+
 #destinos-personalizados .carousel-control-next, #destinos-personalizados .carousel-control-prev,  {
  bottom: auto;
  top: 50%;
@@ -97,7 +129,83 @@ margin: 0 auto 20px;
 .task_06 .card {
     min-height: 500px;
 }
+.task_12 {
+    background: white;
+    width: 80%;
+    margin: auto;
+}
+
 
 .coments {
     text-align: center;
 }
+
+.head-footer {
+    text-align: center;
+    background: white;
+}
+.head-footer .parrafo a {
+    text-decoration: none;
+    color: #888888;
+}
+.head-footer button {
+    border-radius: 21px;
+    margin-top: 24px;
+}
+.head-footer input {
+    margin-top: 24px;
+}
+.head-footer .row .icon-email {
+    font-size: 67px;
+    color: red;
+}
+.main-footer .row .col-6 .fab {
+    padding: 0 15px;
+}
+.main-footer .row .col-3 a {
+    color: #888888;
+    text-decoration: none;
+}
+.informacion-extra .row .col-3 ul .small a {
+    color: #888888;
+    text-decoration: none;
+}
+.informacion-extra .row .col-2 ul .small a {
+    color: #888888;
+    text-decoration: none;
+}
+.task_12 ul li {
+    list-style: none;
+}
+.informacion-extra .row .col-2 a, b, .task_12 .informacion-extra .row .col-3 a, b  {
+    margin-left: -40px;
+}
+.informacion-extra .row .col-4 .small b {
+    margin-left: 1px;
+}
+.footer-permisos-obligatorios {
+    text-align: center;
+}
+.footer-footer {
+    width: 100%;
+    background:#101010;
+    color: #c7c7c7;
+    padding: 0px 10px 0px 10px;
+    font-size: 12px;
+    margin-top: 10px;
+    max-height: 20px;
+}
+.footer-footer i, .magnitus, .footer-a {
+    text-decoration: none;
+    color: #c7c7c7;
+}
+.footer-footer .magnitus {
+    color: white;
+}
+.footer-parrafo {
+     width: 90%;
+     text-align: center;
+     color: #c7c7c7;
+     margin-top: 10px;
+}
+
