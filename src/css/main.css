@@ -103,7 +103,7 @@ margin: 0 auto 20px;
     margin: auto;
 }
 
-.head-footer {
+.head-footer,  {
     text-align: center;
     background: white;
 }
@@ -140,7 +140,7 @@ margin: 0 auto 20px;
 .task_12 ul li {
     list-style: none;
 }
-.informacion-extra .row .col-2 a, b, .task_12 .informacion-extra .row .col-3 a, b  {
+.informacion-extra .row .col-2 a, b, .task_12 .informacion-extra .row .col-3 a, b, .footer-resultados-vuelos .informacion-extra .row .col-2 a, b, .task_12 .informacion-extra .row .col-3 a, b,   {
     margin-left: -40px;
 }
 .informacion-extra .row .col-4 .small b {
@@ -197,9 +197,6 @@ margin: 0 auto 20px;
 }
 .resultados-de-vuelos .col-9 {
     max-height: 100px;
-}
-table {
-
 }
 .col-9 tr, th, td, .precios {
     border: solid 1px #ccc;
