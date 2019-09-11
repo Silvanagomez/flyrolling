@@ -175,29 +175,15 @@ margin: 0 auto 20px;
 .ofertas {
     background-color: aquamarine;
 }
-.resultados-de-vuelos {
-    width: 90%;
-    margin: auto;
-    background: #eee;
-}
-.resultados-de-vuelos .row .col-2 {
-    background: white;
-    margin: 0px 10px;
-    padding-left: 31px; 
-    box-sizing: border-box;
-}
-.resultados-de-vuelos .row .col-9 {
-    margin: 0px 31px;
-    border: 1px solid #ccc;
-    box-sizing: border-box;
-    background:white;
-}
-.resultados-de-vuelos .row .col-9 .table th, td {
-    padding: 0 20px;
-}
-.resultados-de-vuelos .col-9 {
-    max-height: 100px;
-}
+
 .col-9 tr, th, td, .precios {
     border: solid 1px #ccc;
+}
+.container {
+    width: 90%;
+    margin: auto;
+}
+
+.pepito:hover {
+    border: 1px solid blue;
 }
