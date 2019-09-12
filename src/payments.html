@@ -88,27 +88,29 @@
 						<button type="button" class="btn btn-outline-secondary" data-toggle="modal" data-target="#creditcardModal">
 							Seleccioná tu tarjeta.
 						</button>			
-					<hr class="mb-4">
-					<h4 class="mb-3">Datos de tu tarjeta de crédito</h4>
-					<div class="row">
-						<div class="col-6">
-							<div class="row">
-								<div class="col-3">
-									<img src="images/bancos/icon-santander.png" class="img-fluid" alt="">
+					<section id="card-data" class="d-none">
+						<hr class="mb-4">
+						<h4 class="mb-3">Datos de tu tarjeta de crédito</h4>
+						<div class="row">
+							<div class="col-6">
+								<div class="row">
+									<div class="col-3">
+										<img src="images/bancos/icon-santander.png" class="img-fluid" alt="">
+									</div>
+									<div class="col-9 text-left">
+										<h6>Tarjeta de crédito</h6>
+										<p class="small" style="color: #888888">Visa Banco Santander</p>
+									</div>
 								</div>
-								<div class="col-9 text-left">
-									<h6>Tarjeta de crédito</h6>
-									<p class="small" style="color: #888888">Visa Banco Santander</p>
-								</div>
+								<p class="small">1 pago de $125.712 <br>Total a pagar: $125.712</p>
+								<p class="small" style="color: #888888" >- TEA: 0% -</p>
+								<h3 style="color: #888888" >CFT: 0%</h3>
 							</div>
-							<p class="small">1 pago de $125.712 <br>Total a pagar: $125.712</p>
-							<p class="small" style="color: #888888" >- TEA: 0% -</p>
-							<h3 style="color: #888888" >CFT: 0%</h3>
+							<div class="offset-5 col-1">
+								<a class="p-2 text-dark" href="#">Cambiar</a>
+							</div>
 						</div>
-						<div class="offset-5 col-1">
-							<a class="p-2 text-dark" href="#">Cambiar</a>
-						</div>
-					</div>
+					</section>
 					<hr class="mb-4">
 					<div class="row">
 						<div class="col-md-6 mb-3">
@@ -396,16 +398,19 @@
 						</div>
 					</div>
 					<div class="modal-body">
-						<div class="row">
-							<div class="col-1">
-								<img src="images/bancos/icon-santander.png" alt="">
+						<a href="javascript:void(0);" onclick="chooseCard();">
+							<div class="row">
+								<div class="col-1">
+									<img src="images/bancos/icon-santander.png" alt="">
+								</div>
+								<div class="col-6">
+									<h6> Santander <br> <span class="small" style="color: #888888" >Hasta 12 cuotas con interés</span> </h6>
+								</div>
+								<div class="col-5">
+								</div>
 							</div>
-							<div class="col-6">
-								<h6> Santander <br> <span class="small" style="color: #888888" >Hasta 12 cuotas con interés</span> </h6>
-							</div>
-							<div class="col-5">
-							</div>
-						</div>
+						</a>
+						
 						<hr class="mb-4">
 						<div class="row">
 							<div class="col-1">
