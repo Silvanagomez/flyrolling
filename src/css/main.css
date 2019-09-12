@@ -242,6 +242,76 @@ main {
 .coments {
     text-align: center;
 }
+.offer1{
+    color: #FFF;
+position:absolute; /*El div será ubicado con relación a la pantalla*/
+left:28px; /*A la derecha deje un espacio de 0px*/
+
+bottom:0px; /*Abajo deje un espacio de 0px*/
+height:77px; /*alto del div*/
+z-index:0;
+}
+.offer2{
+color: #FFF;
+position:absolute; /*El div será ubicado con relación a la pantalla*/
+left:155px; /*A la derecha deje un espacio de 0px*/
+
+bottom: 39px; /*Abajo deje un espacio de 0px*/
+height:px; /*alto del div*/
+z-index:0;
+}
+.offer3{
+    color: #FFF;
+position:absolute; /*El div será ubicado con relación a la pantalla*/
+left:56px; /*A la derecha deje un espacio de 0px*/
+
+ /*Abajo deje un espacio de 0px*/
+height:77px; /*alto del div*/
+top: 15px;
+z-index:0;
+}
+
+.offer-playstore{
+    display: flex;
+    max-width: 108px;
+    background-color: black;
+    max-height: 38px;
+    transition:all 0.3s ease;
+}
+.offer-playstore2{
+    display: flex;
+    max-width: 108px;
+    background-color:white;
+    max-height: 38px;
+    transition:all 0.3s ease;
+}
+.offer-playstore:hover{
+    c-webkit-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    transform: scale(1.3);
+    
+}
+.offer-playstore2:hover{
+    c-webkit-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    transform: scale(1.3);
+    
+}
+.offer-playstore3:hover{
+    c-webkit-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    transform: scale(1.3);
+    
+}
+.offer-playstore3{
+    display: flex;
+    width: 130px;
+    background-color: black;
+    max-height: 48px;
+    transition:all 0.3s ease;
+    position: absolute;
+    left: 75px;
+}
 .box-1 {
     background: #A780FF;
 }
