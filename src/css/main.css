@@ -1,3 +1,7 @@
+body {
+font-family: 'Andika', sans-serif!Important;
+}
+
 #destinos-personalizados .carousel-control-next, #destinos-personalizados .carousel-control-prev {
  bottom: auto;
  top: 50%;
@@ -242,10 +246,13 @@ main {
     padding: 25px;
 
 }
-
 .logobusqueda {
 width: 50px;
 height: 38px;
 margin: 0px;
 flex: 1 1 auto;
+}
+.aloja {
+text-align: left;
+padding: 15px;
 }
