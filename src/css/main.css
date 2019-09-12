@@ -342,3 +342,11 @@ flex: 1 1 auto;
 text-align: left;
 padding: 15px;
 }
+
+.color-card {
+background-color: #A780FF!Important;
+}
+
+.color-bod {
+    background-color: greenyellow!Important;
+    }
