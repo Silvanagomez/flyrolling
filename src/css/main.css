@@ -210,7 +210,6 @@ main {
 }
 
 /* Inicio CSS RNG */
-
 .header {
     align-items: center;
     background: #fff;
@@ -240,6 +239,15 @@ main {
 .coments {
     text-align: center;
 }
+.box-1 {
+    background: #A780FF;
+}
+
+.precio {
+    padding-left: 12px;
+}
+/* Fin CSS RNG */
+
 
 .busqueda {
     display: flex; 
