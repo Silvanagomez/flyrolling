@@ -177,18 +177,35 @@ margin: 0 auto 20px;
 }
 
 .col-9 tr, th, td, .precios {
-    border: solid 1px #ccc;
+    border: solid 1px white;
 }
 .container {
     width: 90%;
     margin: auto;
 }
-
-.pepito:hover {
-    border: 1px solid blue;
+.container .col-9 .row .col-8 table tr td .input-radio {
+    margin-left: 20px;
 }
+.container tr, .container td, .container th {
+    padding: 0 10px;
+}
+.container .col-9 .row .col-8 table {
+    width: 100%;
+    background: white;
+}
+.container .col-9 .rounded {
+    width: 100% ;
+}
+.input-radio {
+    margin-left: 20px;
+}
+.container .col-9 .row .col-8 table .pepito:hover {
+    background: lightblue;
+    color: white;
+}
+
 main {
-    background: #E8E8E8;
+    background: #e8e8e8;
 }
 
 /* Inicio CSS RNG */

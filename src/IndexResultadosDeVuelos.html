@@ -4,9 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Resultados de vuelos</title>
     <link rel="stylesheet" href="./css/main.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>resultados de vuelos</title>
     <script src="https://kit.fontawesome.com/4df2f2241d.js"></script>
 </head>
 <body class="resultados-de-vuelos">
@@ -141,12 +140,12 @@
                     <img src="" alt=""> 1 Persona economico
                 </div>
             </div> 
-            <div class="col-10 main">
+            <div class="col-9 main">
                     <table class="rounded">
                         <tr>
                             <td></td>
                             <th>Precios Por Aerolineas</th>
-                            <td></td>
+                            <td colspan="3"></td>
                         </tr>
                         <tr>
                             <th class="reunded">aerolineas</th>
@@ -156,53 +155,50 @@
                             <td class="reunded">icon aer</td>
                         </tr>
                         <tr>
-                            <td class="precios reunded"></td>
-                            <td class="precios reunded">1</td>
-                            <td class="precios rounded">2</td>
-                            <td class="precios rounded">3</td>
-                            <td class="precios rounded">4</td>
+                            <th>Dos Escalas o Mas</th>
+                            <td> <span class="small">7.2 Bueno </span></td>
+                            <td> <span class="small">6.8 Bueno</span></td>
+                            <td> <span class="small">7.3 Bueno</span></td>
+                            <td> <span class="small">7.1 Bueno</span></td>
                         </tr>
                     </table>
                 <div class="row">
-                    <div class="col-10 detalles-de-vuelo">
+                    <div class="col-8 detalles-de-vuelo">
                         <table>
                             <tr>
-                                <th>IDA
+                                <th> <i class="fas fa-plane"></i> IDA
                                     <p class="small"> Sab 14, Sep 2019</p>
                                 </th>
-                                <td>TUC</td>
-                                <td>BCN</td>
-                                <td></td>
+                                <td>TUC <p class="small">San Miguel de Tucuman</p> </td>
+                                <td>SVO <p class="small">Moscu</p></td>
+                                <td class="small">equipaje</td>
                             </tr>
-                            <tr>
+
+
+
+
+
+                            <tr class="pepito">
                                 <td>
-                                     <a href=""> 
-                                            <div class="form-check">
-                                                <input class="form-check-input position-static" type="radio" name="blankRadio" id="blankRadio1" value="option1" aria-label="..."> itali, escalas horario y equipaje <h6>06:30</h6> 2 escalas <h6>17:30</h6> 29hs equipaje
-                                            </div>
-                                         
-                                         
-                                     </a>
+                                    <div class="input-radio">
+                                        <input class="form-check-input position-static" type="radio" name="blankRadio" id="blankRadio1" value="option1" aria-label="..."> <img src="./images/icon-aerolineas.jpg" alt=""> <span class="small">Aerolineas Argentina</span> </input>
+                                    </div>
                                 </td>
+                                <td><h6>06:30 <span class="small">2 escalas</span> </h6></td>
+                                <td><h6>17:30 <span class="small">37h 50m</span></h6></td>
+                                <td><i class="fas fa-suitcase"> <i class="fas fa-briefcase"></i> </i> <i class="fas fa-suitcase-rolling"></i></td>     
                             </tr>
                         </table>
                     </div>
-                    <div class="col-2 aside"> 
+                    <div class="col-4 aside"> 
                         <h6>precio final</h6>
-                        <h1>$143.188</h1>
+                        <h2>$143.188</h2>
                         <p class="small">todo incluido</p>
                         <button type="button" class="btn btn-info">seleccionar</button>
                     </div>
                 </div>
             </div>
         </div>
-        
-        
-        <div class="pepito">
-            <input type="radio" id="my-radio-button"><label for="my-radio-button">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere, quis illum? Hic, saepe! Nam fugit reiciendis consectetur eum voluptates voluptate odit explicabo! Tempore impedit enim dolore dolorem repellat quam minus?</label>
-        </div>
-
-
     </main>
     <footer class="footer-resultados-de-vuelos">
         <div class="head-footer">
@@ -312,6 +308,6 @@
 
 
 
-        <script type="text/javascript" src="./js/home.js"></script>
+        <script type="text/javascript" src="./js/IndexResultadosDeVuelos.js"></script>
 </body>
 </html>
