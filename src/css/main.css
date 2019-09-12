@@ -1,3 +1,7 @@
+body {
+font-family: 'Andika', sans-serif!Important;
+}
+
 #destinos-personalizados .carousel-control-next, #destinos-personalizados .carousel-control-prev {
  bottom: auto;
  top: 50%;
@@ -175,38 +179,40 @@ margin: 0 auto 20px;
 .ofertas {
     background-color: aquamarine;
 }
-.resultados-de-vuelos {
+
+.col-9 tr, th, td, .precios {
+    border: solid 1px white;
+}
+.container {
     width: 90%;
     margin: auto;
-    background: #eee;
 }
-.resultados-de-vuelos .row .col-2 {
+.container .col-9 .row .col-8 table tr td .input-radio {
+    margin-left: 20px;
+}
+.container tr, .container td, .container th {
+    padding: 0 10px;
+}
+.container .col-9 .row .col-8 table {
+    width: 100%;
     background: white;
-    margin: 0px 10px;
-    padding-left: 31px; 
-    box-sizing: border-box;
 }
-.resultados-de-vuelos .row .col-9 {
-    margin: 0px 31px;
-    border: 1px solid #ccc;
-    box-sizing: border-box;
-    background:white;
+.container .col-9 .rounded {
+    width: 100% ;
 }
-.resultados-de-vuelos .row .col-9 .table th, td {
-    padding: 0 20px;
+.input-radio {
+    margin-left: 20px;
 }
-.resultados-de-vuelos .col-9 {
-    max-height: 100px;
+.container .col-9 .row .col-8 table .pepito:hover {
+    background: lightblue;
+    color: white;
 }
-.col-9 tr, th, td, .precios {
-    border: solid 1px #ccc;
-}
+
 main {
-    background: #E8E8E8;
+    background: #e8e8e8;
 }
 
 /* Inicio CSS RNG */
-
 .header {
     align-items: center;
     background: #fff;
@@ -305,4 +311,29 @@ z-index:0;
     transition:all 0.3s ease;
     position: absolute;
     left: 75px;
+}
+.box-1 {
+    background: #A780FF;
+}
+
+.precio {
+    padding-left: 12px;
+}
+/* Fin CSS RNG */
+
+
+.busqueda {
+    display: flex; 
+    padding: 25px;
+
+}
+.logobusqueda {
+width: 50px;
+height: 38px;
+margin: 0px;
+flex: 1 1 auto;
+}
+.aloja {
+text-align: left;
+padding: 15px;
 }
