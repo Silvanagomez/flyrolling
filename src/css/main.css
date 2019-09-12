@@ -206,7 +206,6 @@ main {
 }
 
 /* Inicio CSS RNG */
-
 .header {
     align-items: center;
     background: #fff;
@@ -233,6 +232,15 @@ main {
     margin: 20px;
 }
 
-.coments {
+.coments {12px
     text-align: center;
 }
+.box-1 {
+    background: #A780FF;
+}
+
+.precio {
+    padding-left: 12px;
+}
+/* Fin CSS RNG */
+
