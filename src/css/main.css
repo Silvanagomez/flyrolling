@@ -191,7 +191,7 @@ margin: 0 auto 20px;
     margin-left: 20px;
 }
 .container tr, .container td, .container th {
-    padding: 0 10px;
+    padding: 0 7px;
 }
 .container .col-9 .row .col-8 table {
     width: 100%;
@@ -203,11 +203,16 @@ margin: 0 auto 20px;
 .input-radio {
     margin-left: 20px;
 }
-.container .col-9 .row .col-8 table .pepito:hover {
+.container .col-9 .row .col-8 table .hover:hover {
     background: lightblue;
-    color: white;
+    color: black;
 }
-
+.table-tr {
+    border:1px solid black ;
+}
+.tabla-2 .small {
+    color: #666666;
+}
 main {
     background: #e8e8e8;
 }
